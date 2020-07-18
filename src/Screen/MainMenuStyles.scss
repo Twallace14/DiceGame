@@ -1,0 +1,23 @@
+.menu-container{
+    background-color: black;;
+    height: 100vh;
+    display: grid;
+    color: white;
+
+    .header{
+        height: 30%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile-container{
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        padding: 0.4rem;
+        color: #ffcc02;
+        text-shadow: 2px 1px #FF7200;
+    }
+  
+   
+}

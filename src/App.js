@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+import {Switch, Route} from 'react-router-dom'
+import Game from "./Screen/Game";
+import SplashScreren  from './Screen/SplashScreen';
+import MainMenu from './Screen/MainMenu';
+import Health from './Components/Game-Components/HealthBar'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Switch>
+    <Route path="/game" component={Game} />
+    <Route exact path='/' component={SplashScreren}/>
+    <Route path="/MainMenu" component={MainMenu} />
+
+
+    </Switch>
     </div>
   );
 }

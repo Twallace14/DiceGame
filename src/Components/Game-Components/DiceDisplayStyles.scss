@@ -1,0 +1,35 @@
+.DiceDisplay-container{
+    background: rgb(177, 177, 154);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+    .Dice-1{
+    
+        width: 40%;
+        height: 100%;
+       
+
+        img{
+           height: 100%;
+            width: 70%;
+            object-fit: contain;
+        }
+    }
+
+    .Dice-2{
+       
+        width: 40%;
+        height: 100%;
+
+        img{
+            height: 100%;
+            width: 70%;
+            object-fit: contain;
+        }
+    
+    }
+}

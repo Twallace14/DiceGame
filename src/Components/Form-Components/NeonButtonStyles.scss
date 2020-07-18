@@ -1,0 +1,83 @@
+.neon-button {
+    
+height: auto;
+    width: auto;
+    height: 50px;
+    letter-spacing: 0.5px;
+   
+    padding: 0 35px 0 35px;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    transition: 0.5s;
+    overflow: hidden;
+    border-radius: 10px;
+    background: transparent;
+    text-decoration: none;
+    
+  
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 15px;
+        height: 0px;
+        border-top: 3px dotted white;
+        border-left: 3px dotted white;
+        transition: 0.4s;
+      
+        
+    }
+
+    
+
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 15px;
+        height: 0px;
+        border-bottom: 3px dotted white;
+        border-right: 3px dotted white;
+        transition-delay: 0.4s;
+        transition: 0.5s;
+    }
+
+    &:hover {
+
+        color: white;
+        background: #F13806;
+        box-shadow: 0  0 50px #F13806;
+        transition-delay: 0.5s;
+
+
+    
+
+        &:before {
+            height: 100%;
+            width: 100%;
+            border-top: 3px dotted #F13806;
+            border-left: 3px dotted #F13806;
+            
+        }
+
+        &:after{
+            height: 100%;
+            width: 100%;
+            border-bottom: 3px dotted #F13806;
+            border-right: 3px dotted #F13806;
+        }
+
+    }
+     
+}

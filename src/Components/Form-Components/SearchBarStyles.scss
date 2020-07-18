@@ -1,0 +1,46 @@
+@font-face{
+    src: url(../assets/fonts/SpecialEliteRegular.ttf);
+    font-family: RabonaPrint;
+}
+
+@font-face{
+    src: url(../assets/fonts/OpenSansCondensed-Light.ttf);
+    font-family: regularRabona;
+}
+
+
+.search-bar{
+    background: white;
+    width: 70vw;
+    margin: auto;
+    height: 7vh;
+    border-radius: 30rem;
+    border: 0.3rem solid #99824c;
+    
+
+    .search-text{
+        color: black;
+        background: none;
+        border: none;
+        float: left;
+        margin-left: 1.2rem;
+        font-size: 1.2rem;
+        margin-top: 0.4rem;
+        width: 100%;
+        font-family: regularRabona;
+        position: inherit;
+
+        &:focus {
+           border: none;
+           outline: none;
+          }
+    }
+}
+
+@media only screen and (min-width:798px){
+    .search-bar{
+        width: 30vw;
+
+      
+    }
+}

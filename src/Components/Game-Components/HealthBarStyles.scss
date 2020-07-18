@@ -1,0 +1,23 @@
+.health-Container{
+ width: 100%;
+ height: 100%;
+ background-color: rgb(204, 204, 207);
+ border-radius: 10px;
+ box-shadow: inset 0 0 5px;
+
+ .health-Visual{
+     height: 100%;
+     background-color: rgb(137, 44, 180);
+     border-radius: 8px 0px 0px 8px;
+     transition: width 0.6s ease-in-out;
+ } 
+}
+
+
+.half{
+    background-color: rgb(92, 45, 116);
+}
+
+.close{
+    background-color: rgb(50, 15, 70);
+}

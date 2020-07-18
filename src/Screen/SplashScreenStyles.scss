@@ -1,0 +1,41 @@
+.Splash-Page {
+   display: grid;
+   height: 100%;
+   grid-template-rows: 1fr 4fr 4fr;
+   grid-template-columns: 1fr;
+    
+   
+    
+
+    
+
+   
+  .logo-container{
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+
+      img{
+          height: 100%;
+          width: 100%;
+          object-fit: contain;
+      }
+  }
+    
+
+    .login-section{
+        overflow: scroll;
+        width: 100%;
+        align-items: center;
+        grid-row-start: 2;
+       
+    }
+
+    .sign-up-section{
+        overflow: scroll;
+        width: 100%;
+        grid-row-start: 3;
+    }
+   
+  
+  }
